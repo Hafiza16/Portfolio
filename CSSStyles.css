@@ -1,0 +1,136 @@
+
+.NameToLeft
+{
+  margin-left: 20px; 
+  font-family:'Courier New';  
+  font-size: 75px; 
+}
+
+/* Header/Logo Title */
+.HomePageImageHeader {
+  padding: 20px;
+  background-image: url("HomePageImage.jpg");
+  color: white;
+  background-size: cover; 
+  height: 300px; 
+  font-size: 10px; 
+}
+
+.ImageReferencing 
+{
+  text-align: right !important; 
+  font-family: 'Courier New'; 
+  margin-right: 20px; 
+  margin-bottom: 30px; 
+  font-size:15px; 
+  color: #8699b8; 
+}
+
+
+/* Page Content */
+.content
+{
+  padding:40px; 
+}
+
+h1
+{
+  font-family: 'Courier New'; 
+}
+
+p
+{
+  font-family: 'Courier New';
+  font-size: 20px; 
+  padding: 5px; 
+}
+
+ul.ListFormatLeft
+{
+  font-family: 'Courier New'; 
+  font-size: 20px; 
+  margin-left: 25px; 
+  margin-top: 25px; 
+  margin-bottom: 25px; 
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav
+{
+  display: flex; /* 1 */
+  justify-content: center; /* 2 */
+  padding: 20px; 
+  background: #cfd8dc; /* 4 */
+  font-family: 'Courier New';
+  font-weight: bold; 
+}
+
+nav ul {
+  display: flex; /* 5 */
+  list-style: none; /* 6 */
+}
+
+nav li {
+  padding-left: 1rem; /* 7! */
+}
+
+img {
+  border: 5px solid #555;
+  width: 580px; 
+  margin-left:20px; 
+
+}
+
+.grid-container-element { 
+  display: grid; 
+  grid-template-columns: 4fr 1fr; 
+  grid-gap: 2px; 
+} 
+.grid-child-element { 
+  margin: 7px; 
+  border: 1px solid rgb(23, 58, 135); 
+  border-width: 3px; 
+  padding: 10px; 
+}
+
+.projectHeader
+{
+  padding: 10px; 
+  font-family:'Courier New';
+  background-color: #8fadb5;
+  margin-left: 15px; 
+  margin-right: 15px; 
+  text-align: center; 
+  border: 2px solid black; 
+  color: white; 
+  font-size: 35px; 
+}
+
+.projectContent
+{
+  padding: 20px; 
+  font-family:'Courier New';
+  font-size: 20px; 
+  border: 2px solid black; 
+  margin-left: 17px; 
+  margin-right: 17px; 
+  align-items: center;
+  justify-content: center;
+  padding: 10px; 
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 50px;
+  margin-left: -50px; 
+}

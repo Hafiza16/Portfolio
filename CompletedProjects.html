@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Hafiza's Portfolio</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="CSSStyles.css" />
+<script src="NavBar.js"></script>
+<style type = "text/css">  
+    a
+    {  
+        color: rgb(129, 129, 132); 
+    }  
+</style> 
+</head>
+<body>
+  <div class="HomePageImageHeader">
+    <div class="NameToLeft">HAFIZA<br>RAHMAN<br>PORTFOLIO</div>
+    <div class="ImageReferencing">
+      <ImageReferencing>COURTESY OF FREEPIK.COM</ImageReferencing>
+    </div>
+  </div>  
+
+  <nav>
+    <ul>
+      <li><a href="HomePage.html">INTRODUCTION</a></li>
+      <li><a href="TechnicalExperience.html">TECHNICAL EXPERIENCE</a></li>
+      <li><a href="CompletedProjects.html">COMPLETED PROJECTS</a></li>
+      <li><a href="ContactInformation.html">CONTACT INFORMATION</a></li>
+    </ul>
+  </nav>
+
+  <br>
+
+  <div class="projectHeader">
+    <b>WORDLE IN PYTHON</b>
+  </div>
+
+  <br>
+
+  <div class="projectContent">
+    <p>As part of a Computing project, I had re-created the world-famous games
+      of Wordle in Python using the Guizero library:
+      <br>
+      <br>
+      <img src="WordleScreenshots\firstScreen.png" alt="W3Schools.com" style="float:right;margin-right:15px;">
+    </p>
+    <p>As you can see in the image on the right, the player is presented with a 
+      5 by 6 grid in which they can enter 6 guesses of five letters. To do this, 
+      they need to enter their guess in the textbox input field and press the 
+      pink button. 
+    </p>
+
+    <br>
+
+    <p>If the user has the exact same letter in the same place, the letter goes green. 
+      However, if the user has the same letter but in a different place, the letter
+      turns yellow, and if that letter is not in the word, it turns red.
+    </p>
+
+    <br>
+
+    <p>Once the user guesses the word correctly before using all of their guesses, 
+      a message appears saying "Congrats" and they are not allowed to enter 
+      anymore guesses. Otherwise, the word is shown once the player has used all of 
+      the guesses and still has not got the word correct. 
+    </p>
+    
+    <br>
+    <img src="WordleScreenshots\firstGuess.png" alt="W3Schools.com" style="float:left;margin-right:15px;">
+    <p style="margin-left:20px;">
+      In the following screenshot, I am guessing a word to demonstrate
+      the colour coding for the letters that occurs.
+    </p>
+    <p>
+      There are also 
+      messages to motivate the user to keep guessing, which are 
+      randomly selected from a string array to ensure they are 
+      different each time the player makes a guess. 
+    </p>
+
+    <p>
+      Each time the user makes a guess, it fills in the next row of 
+      the grid with what they have entered (only entering the first 
+      five letters the player has input into the textbox, even if they
+      have entered more letters.)
+    </p>
+
+    <br>
+    <br>
+    
+    <img src="WordleScreenshots\correctGuess.png" alt="W3Schools.com" style="float:right;margin-right:15px;">
+    <p>In this screenshot, a full game of Wordle is happening, with the word
+      being correctly guessed after five attempts: 
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </p>
+
+  </div>
+
+  <br>
+
+  <div class="projectHeader">
+    <b>TEXT-BASED ADVENTURE</b>
+  </div>
+
+  <br>
+
+  <div class="projectContent">
+    <p>In Python, I had attempted to create a text-based adventure game
+      similar to the online game Zork. These text-based games follow the 
+      simple basis of setting a storyline for the player and asking 
+      them to enter text-based inputs, allowing them to determine 
+      what happens next. 
+
+      <p>
+        In the screenshot below, there is a short introduction for the player
+        to read, allowing for them to understand the rules of and how to 
+        play the game: 
+      </p>
+      
+      <br>
+
+      <img src="ZorkScreenshots\intro.png" style="width:1200px;margin-left:-1px;display:block;">
+      <br>
+    </p>
+
+    <p>
+      <img src="ZorkScreenshots\direction.png" style="margin-left:10px;width:800px;float:right;margin-right:-8px;">
+      The player is then required to enter a specific cardinal direction, 
+      resulting in a specific room that is entered.
+      
+      <p>
+        From here, the player
+        can choose areas to search for items, and can: 
+      </p>
+      <ul class="ListFormatLeft">
+        <li>Pick up an item</li>
+        <li>Leave the item</li>
+        <li>Return to the main hallway</li>
+        <li>View their inventory</li>
+      </ul>
+
+      <p>
+        The player must choose an option to be able to progress 
+        onto the next step of the game. 
+      </p>
+      <br>
+    </p>
+
+    <p>
+      Once the player has collected all of the items from all of the 
+      rooms that have been explored, the player enters into a battle
+      with a mythical creature:
+      <br>
+      <br>
+      <img src="ZorkScreenshots\endBattle.png" style="float:left;margin-left:-5px;margin-right:10px;width:900px;">
+      <p>
+        The player is reminded of the items in their inventory, and they must choose only
+        three items from the inventory in order to enter the battle with the mythical creature.
+      </p>
+      <p>
+        However, there is a specific combination of items which will make the player
+        successful in defeating the creature !
+      </p>
+    </p>
+
+  </div>
+
+  <br>
+
+  <div class="projectHeader">
+    <b>SPEEDY KEYS</b>
+  </div>
+
+  <br>
+
+  <div class="projectContent">
+    <p>
+      For my A Level Computer Science Project, I had decided to create a game 
+      using C# for Unity Development. 
+    </p>
+    <p>
+      The initial idea was to create a game in which random objects would appear
+      on the screen at random times with an associated key and a time limit, 
+      and the user would have to press that key before the time ended in order 
+      to successfully save the object (and not lose a life).
+    </p>
+    <p>
+      However, I was unable to achieve this due to limitations of creating and 
+      instantiating too many objects in the game at a time, as spawing too many 
+      objects at the same time was causing the game to crash or become laggy, 
+      therefore I had to change my initial idea in order to reduce the effects 
+      of this. 
+    </p>
+    <p>
+      Therefore, I decided to keep the initial game design the same, but the player
+      had a character they could control using WASD keys and the aim was to collect
+      as many coins as possible in order to exchange them to design their own 
+      character. As the levels went on, there were difficulties added e.g. having
+      to avoid certain objects otherwise a life would be lost or having a boost.
+    </p>
+
+    <div class="row">
+      <div class="column">
+        <img src="SpeedyKeys\mainMenu.png" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="SpeedyKeys\levelMenu.png" style="width:100%">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <img src="SpeedyKeys\level.png" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="SpeedyKeys\levelDone.png" style="width:100%">
+      </div>
+    </div>
+
+    <br>
+
+    <img src="SpeedyKeys\painting.png" style="display:block;margin-left:auto;margin-right:auto;">
+
+    <br>
+
+    <p>
+      The above images are screenshots of the game in action, with the player
+      being able to collect coins, avoid enemies and create their own character 
+      in the drawing canvas. 
+    </p>
+    
+  </div>
+
+  <br>
+
+  <div class="projectHeader">
+    <b>STUDY SPACER</b>
+  </div>
+
+  <br>
+
+  <div class="projectContent">
+    <p>For my BTEC Computing project, I was tasked with creating an application 
+      to help students with planning their study and revision. I wanted to create 
+      an application that was available on both Android and iOS platforms, so I 
+      had developed this application using Thunkable, using Adobe XD for 
+      prototyping. 
+      </p>
+
+      <br>
+
+      <div class="row">
+        <div class="column">
+          <img src="StudySpacer\loading.png" style="width:100%;margin-left:150px;">
+        </div>
+        <div class="column">
+          <img src="StudySpacer\options.png" style="width:44%;margin-left:190px;">
+        </div>
+      </div>
+
+      <br>
+      <p>As you can see in the screenshot on the left, there is a loading screen
+        with the app name "Study Spacer", which is shortly followed by an 
+        introduction screen. 
+      </p>
+
+      <p>
+        The intro screen provides the user with an overview of the app and its 
+        purpose, allowing them to gain a better understanding of the app.
+      </p>
+
+      <p>
+        I have decided to use a panda image as the logo and a light blue for 
+        the background to provide the user with a calm and relaxing 
+        space in which they can map out their revision. This is because 
+        I feel that it is important for the student (the user) to be 
+        in this calm space in order to maximise their productivity when 
+        revising. 
+      </p>
+
+      <p>
+        Once the user clicks the "Sounds Good" button, they are taken to a
+        page with three options (on the right).
+      </p>
+
+      <br>
+
+      <p>Here is an example of what the timetable looks like day by day (with
+        clickable buttons) on the left:
+        <div class="row">
+          <div class="column">
+            <img src="StudySpacer\timetable.png" style="width:44%;margin-left:50px;">
+          </div>
+          <div class="column">
+            <img src="StudySpacer\notes.png" style="width:120%;margin-left:-120px;">
+          </div>
+        </div>
+        <p>
+          And on the right, the user can make their own notes, giving them a title 
+          and a description. They can then view their notes by their title name 
+          and click on the button to view the actual note. 
+        </p>
+      </p>
+      <br>
+  </div>
+
+  <br>
+  <br>
+    
+</body>
+</html>

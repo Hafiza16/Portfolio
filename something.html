@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<head>
+    <title>website</title>
+</head>
+
+<html>
+<body>
+    <h2>JavaScript in Body</h2>
+    <p id="test">
+    <script>
+        document.getElementById("test").innerHTML = "testing testing"; 
+
+        function myFunc()
+        {
+            document.getElementById("test").innerHTML = "wo o o"; 
+            document.getElementById("test").style.display = "block"; 
+        }
+    </script>
+
+    <button type="button" onclick="myFunc()">Test it!</button>
+</body>
+</html>
